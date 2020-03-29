@@ -31,8 +31,8 @@
 	}
 
 
-#### JS-FIX (Disable new tab on link)
+#### 7. JS-FIX (Disable new tab on link)
 	<script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
 	
-#### No zoom
+#### 8. No zoom
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
