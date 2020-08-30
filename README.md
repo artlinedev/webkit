@@ -1,5 +1,8 @@
 # webkit
 ### Center:
+	body {
+	    text-align: center;
+	}
 	.center {
 	    text-align: left;
 	}
