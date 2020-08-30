@@ -1,4 +1,15 @@
 # webkit
+### Center:
+	.center {
+	    text-align: left;
+	}
+	@media (min-width: 1300px) {
+	    .center {
+		display: inline-block;
+		width: 1300px;
+	    }
+	}
+
 ### Web Apps For iOS:
 #### 1. Make it standalone:
     <meta name="apple-mobile-web-app-capable" content="yes">
